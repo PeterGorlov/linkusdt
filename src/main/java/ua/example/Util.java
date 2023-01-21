@@ -51,7 +51,7 @@ public class Util {
 
     @SneakyThrows
     public Entities jsonFromURL() {
-        String url = "https://api.binance.com/api/v3/depth?symbol=LINKUSDT&limit=5";
+        String url = "https://api.binance.com/api/v3/depth?symbol=LINKUSDT&limit=5000";
         URL obj = new URL(url);
         HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
 
